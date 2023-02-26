@@ -1,20 +1,7 @@
-# Default Jekyll
+_site
+.sass-cache
 .jekyll-cache
 .jekyll-metadata
 vendor
-_site
 
-# project
-.sass-cache
-.vagrant
-
-# OS specifics
-.DS_Store
-Thumbs.db
-ehthumbs.db
-
-# Ruby
-Gemfile.lock
-
-# Gems
-beautiful-jekyll-theme-*.gem
+.bundle

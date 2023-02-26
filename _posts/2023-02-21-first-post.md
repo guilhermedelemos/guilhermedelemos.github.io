@@ -1,11 +1,8 @@
 ---
 layout: post
-title: Sample blog post
-subtitle: Post subtitle
-# gh-repo: guilhermedelemos/guilhermedelemos.github.io
-# gh-badge: [star, fork, follow]
-tags: [test]
-comments: false
+title: "First post"
+date: 2023-02-21 10:00:40 -0300
+author: guilherme
+categories: example
 ---
-
-This is a demo post.
+This is an example.
