@@ -4,18 +4,15 @@
     <a class="nav-link {% if page.url == item.link %}active{% endif %}" {% if page.url == item.link %}aria-current="page"{% endif %} href="{{ item.link }}">{{ item.name }}</a>
   </li>
   {% endfor %}
-  <!-- <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled">Disabled</a>
-  </li>
+  {% if jekyll.environment == "development" %}
   <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Development</a>
     <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="#">Action</a></li>
-      <li><a class="dropdown-item" href="#">Another action</a></li>
-      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><a class="dropdown-item" href="/daad5ed3-f5b7-462c-b75a-52326aa5a495">Info</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="{{ site.github }}">GitHub</a></li>
+      <li><a class="dropdown-item" href="{{ site.url }}">Site</a></li>
     </ul>
-  </li> -->
+  </li>
+  {% endif %}
 </ul>

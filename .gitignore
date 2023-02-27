@@ -1,7 +1,13 @@
+# Jekyll
 _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 vendor
 
+# Ruby
 .bundle
+
+# Others
+*.zip
+*.log
