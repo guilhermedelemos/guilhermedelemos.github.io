@@ -8,6 +8,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://guilhermedelemos.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github: "https://github.com/guilhermedelemos/guilhermedelemos.github.io"
 version: 1.0.0
+address: Rua A, 123, Bairro, Cidade, Estado, País 
+cnpj: 99.999.999/9999-99
 google_analytics: G-D7N9MKHZHG
 # twitter_username: 
 # github_username: guilhermedelemos
