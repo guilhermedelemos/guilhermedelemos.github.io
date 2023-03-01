@@ -12,8 +12,8 @@ address: Rua A, 123, Bairro, Cidade, Estado, País
 cnpj: 99.999.999/9999-99
 google_analytics: G-D7N9MKHZHG
 # twitter_username: 
-# github_username: guilhermedelemos
-# linkedin_username: guilhermedelemos
+github_username: guilhermedelemos
+linkedin_username: guilhermedelemos
 timezone: America/Sao_Paulo
 encoding: utf-8
 
