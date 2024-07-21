@@ -1,1 +1,0 @@
-# guilhermedelemos.github.io

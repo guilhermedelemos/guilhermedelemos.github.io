@@ -1,0 +1,27 @@
+title: Guilherme
+description: >-
+  A simple site.
+baseurl: ""
+url: "guilherme.lemos.tec.br"
+timezone: UTC
+encoding: utf-8
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+exclude:
+  - README.md
+  - Dockerfile
+  - build.sh
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
